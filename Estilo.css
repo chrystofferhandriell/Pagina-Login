@@ -149,14 +149,15 @@ form button:hover {
        margin-left: 10px;
 }
 
-#Google-icon {
-    
+.Google-icon {
+    margin: 10px;
     display: inline;
     width: 30px;
     height: 30px;
-    background-image: url(../Pagina-Login/images/google.svg);
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.F2MBax0hCXmy2D5miflWuQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3 );
     background-size: 30px;
 }
+
 
 
 .login-form-subscribe {
