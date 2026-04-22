@@ -1,42 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="icon" href="public/icone.png" type="image/x-icon">
+    <title>Login</title>
+
+    <link rel="icon" href="public/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="Estilo.css">
 </head>
+
 <body>
-     <div class="login-container">
-        <div class="login-text">
-    
-        </div>
+    <div class="login-container">
+
+        <div class="login-text"></div>
+
         <div class="login-form">
             <div class="login-form-content">
+
                 <img src="public/name-academia.png" width="200">
                 <h3>Faça seu Login</h3>           
-                <form>
-                    <input type="text" placeholder="E-mail">
-                    <input type="password" placeholder="Senha">
+
+                <!-- ✅ FORM CORRIGIDO -->
+               <form id="loginForm">
+                    <input type="text" id="email" placeholder="E-mail">
+                    <input type="password" id="senha" placeholder="Senha">
+
                     <a href="#">Esqueci minha senha</a>
-                    <button>Entrar</button>
+
+                    <button type="submit">Entrar</button>
                 </form>
+
+                <!-- ✅ MENSAGEM -->
+                <div id="loginMessage" style="margin-top:10px;"></div>
+
                 <div class="login-form-divider">
                     <div> Ou Faça Login com </div>
                 </div>
-                 <a href="#" id="login-form-google">
-                   <div id="Google-container"> 
 
-                       <div class="Google-icon"></div>
-                       <span id="Google-sign-in">Sign in with Google</span>
-
-                   </div> 
+                <a href="#" id="login-form-google">
+                    <div id="Google-container"> 
+                        <div class="Google-icon"></div>
+                        <span id="Google-sign-in">Sign in with Google</span>
+                    </div> 
                 </a>
+
                 <div class="login-form-subscribe">
-                    Não tem uma conta? <a href="#">Inscreva-se</a>
+                    Não tem uma conta? <a href="cad.html">Inscreva-se</a>
                 </div>
+
+            </div>
         </div>
     </div>
+
+    <script src="script-log.js"></script>
 </body>
 </html>
